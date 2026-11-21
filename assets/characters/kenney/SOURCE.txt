@@ -1,0 +1,4 @@
+Kenney Mini Characters 2.0 (CC0)
+https://kenney.nl/assets/mini-characters
+
+13 civilian characters, with original idle/walk/sit clips. Palette sampled into linear vertex colours by scripts/prepare-kenney.mjs; geometry and animation are from Kenney. Original archive remains in assets/vendor/kenney-mini-characters.

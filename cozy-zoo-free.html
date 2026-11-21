@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Pocket Zoo · Cozy Zoo Free Sampler</title>
+  <style>
+    :root{color-scheme:light;font-family:system-ui,sans-serif;color:#304b43;background:#f4f1e7}*{box-sizing:border-box}body{margin:0}
+    header{padding:24px clamp(18px,4vw,70px);border-bottom:1px solid #dce1d2;display:flex;gap:24px;align-items:center;flex-wrap:wrap}strong{font-size:20px}
+    nav{display:flex;gap:10px;flex-wrap:wrap}a{color:inherit;text-underline-offset:4px}nav a,button{padding:12px 18px;min-height:48px;border-radius:999px;border:0;background:#e4e8dc;color:#304b43;font:inherit;text-decoration:none;cursor:pointer}
+    main{max-width:1500px;margin:auto;padding:0 18px 50px}img{display:block;width:100%;height:auto}section{scroll-margin-top:25px}.intro{max-width:900px;margin:50px auto;line-height:1.7}
+    h1{font-size:clamp(32px,5vw,52px);line-height:1.15;margin:14px 0}p{color:#61755f}.tag{font-size:13px;letter-spacing:.12em}.animation{max-width:936px;margin:45px auto}.animation img{border-radius:18px}.controls{margin:14px 0;display:flex;gap:15px;align-items:center}.caption{font-size:14px;line-height:1.6;max-width:900px;margin:20px auto 40px}
+    footer{padding:25px;border-top:1px solid #dce1d2;text-align:center;font-size:14px;color:#74836f}
+    @media(prefers-reduced-motion:reduce){.motion-notice{display:inline}}.motion-notice{font-size:13px}
+  </style>
+</head>
+<body>
+  <header><strong>Pocket Zoo</strong><nav aria-label="Pack review"><a href="dist/index.html">Play starter zoo</a><a href="index.html">Original art test</a><a href="#animals">Animals</a><a href="#motion">Animations</a><a href="#scene">Scene</a><a href="#scenery">Scenery</a></nav></header>
+  <main>
+    <div class="intro"><span class="tag">PACK REVIEW 02</span><h1>Cozy Zoo: the actual free sampler.</h1><p>47 assets, nine animated animal species and 35 clips. These previews were rendered from the downloaded files, with the supplied colour materials and simplified offline lighting.</p><p>The download differs from the store description: it includes a giant panda, gorilla, seal and crocodile. It does not contain the advertised red panda, macaw, tortoise or train.</p><p><a href="https://sandial.itch.io/cozy-zoo-low-poly-mega-modular-3d-pack">Asset pack by Sandial</a> · <a href="PACK_REVIEW.md">Detailed findings</a></p></div>
+    <section id="animals" aria-label="The nine free animals"><img src="art-previews/cozy-zoo-free/animals.png" alt="The actual free animals: elephant, giraffe, lion, giant panda, gorilla, emperor penguin, harbor seal, crocodile and flamingo."></section>
+    <section id="motion" class="animation" aria-label="Supplied animation loops">
+      <div class="controls"><button id="motion-toggle" aria-pressed="false">Play animation samples</button><span class="motion-notice">Each tile shows one loop; timing is normalised for comparison.</span></div>
+      <img id="animation" src="art-previews/cozy-zoo-free/animation-still.png" alt="Locomotion samples from all nine supplied skeletal rigs." loading="lazy">
+    </section>
+    <section id="scene" aria-label="Scene assembled from free assets"><img src="art-previews/cozy-zoo-free/scene.png" alt="A small isometric park assembled from the free pack's paths, fences, animals, plants, ticket booth and pools." loading="lazy"></section>
+    <p class="caption">This layout was assembled for our comparison. The archive also contains the creator's starter diorama and three assembled prefabs in FBX format. Those supplied FBX scenes have not been rendered here.</p>
+    <section id="scenery" aria-label="The 38 free scenery pieces"><img src="art-previews/cozy-zoo-free/scenery.png" alt="All 38 free building, habitat, landscape and visitor amenity pieces." loading="lazy"></section>
+    <p class="caption">All 47 GLBs loaded successfully. Bone movement and loop continuity were checked for every supplied clip. Triangle counts range from 188 to 9,960 per asset. Mobile runtime performance has not been measured.</p>
+  </main>
+  <footer>Assets by Sandial. Commercial use and modification permitted by the included licence; raw asset redistribution prohibited.</footer>
+  <script>
+    const toggle=document.querySelector('#motion-toggle'),animation=document.querySelector('#animation');
+    toggle.addEventListener('click',()=>{
+      const play=toggle.getAttribute('aria-pressed')!=='true';
+      toggle.setAttribute('aria-pressed',String(play));toggle.textContent=play?'Pause animation samples':'Play animation samples';
+      animation.src=play?'art-previews/cozy-zoo-free/animations.gif':'art-previews/cozy-zoo-free/animation-still.png';
+    });
+  </script>
+</body>
+</html>

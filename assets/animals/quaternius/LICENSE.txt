@@ -1,0 +1,11 @@
+Farm Animal Pack by Quaternius
+Public Domain (CC0 1.0 Universal)
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Creator: https://quaternius.com/packs/farmanimal.html
+GLB distribution: https://poly.pizza/bundle/Farm-Animal-Pack-1kUvRTPLzT
+Cow: https://poly.pizza/m/5XSc2Fka3F
+Sheep: https://poly.pizza/m/C39AUXUUes
+Pig: https://poly.pizza/m/TNvG3QUFlp
+
+Downloaded 18 November 2026. Materials adjusted at runtime for a matte appearance. Models and supplied animations are by Quaternius.

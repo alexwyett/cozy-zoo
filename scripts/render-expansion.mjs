@@ -1,0 +1,21 @@
+import { mkdir,writeFile } from 'node:fs/promises';
+import * as THREE from 'three';
+import sharp from 'sharp';
+import { sceneFixture } from './scene-fixture.mjs';
+import { createGame,buy,tick } from '../src/game/simulation.js';
+import { buyLand } from '../src/game/land.js';
+import { render } from './rasterize.mjs';
+
+const out=new URL('../art-previews/',import.meta.url);await mkdir(new URL('shop/',out),{recursive:true});
+const world=await sceneFixture(),state=createGame();state.coins=10000;
+const petting=world.makeBuilding({type:'petting',c:0,r:0,remaining:0,level:1});petting.root.position.set(0,0,0);
+const camera=new THREE.OrthographicCamera(-3.25,3.25,2.75,-2.75,.01,50);camera.position.set(7,7,10);camera.lookAt(0,.4,0);
+const closeup=await render(petting.root,camera,1000,850);
+await writeFile(new URL('petting-farm.png',out),await sharp({create:{width:1000,height:850,channels:4,background:'#f7f3e9'}}).composite([{input:closeup}]).png().toBuffer());
+await writeFile(new URL('shop/petting.png',out),await sharp(closeup).resize(360,306).png().toBuffer());
+buyLand(state,'plot:2:1');for(const [c,r] of [[11,8],[12,8],[13,8],[14,8]])if(!state.paths.includes(`${c},${r}`))buy(state,'path',c,r);
+buy(state,'petting',13,6);for(let i=0;i<160;i++)tick(state,.1);
+world.sync(state);world.update(state,0);world.target.set(5,0,2);world.span=34;world.resize();
+const wide=await render(world.scene,world.camera,1600,1000);
+await writeFile(new URL('expanded-zoo.png',out),await sharp({create:{width:1600,height:1000,channels:4,background:'#dce8d5'}}).composite([{input:wide}]).png().toBuffer());
+console.log('Rendered petting-farm.png, shop/petting.png and expanded-zoo.png from actual game models.');

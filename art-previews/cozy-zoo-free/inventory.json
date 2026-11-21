@@ -1,0 +1,987 @@
+{
+  "source": "https://sandial.itch.io/cozy-zoo-low-poly-mega-modular-3d-pack",
+  "downloaded": "2026-11-18",
+  "archiveSha256": "3e4528862e91734a456b589107b23f7de846dcfd1600a2f2d351aea8e33c6e8a",
+  "assetCount": 47,
+  "animalCount": 9,
+  "animationCount": 35,
+  "categories": [
+    "01_Ground_Paths",
+    "02_Fences_Barriers",
+    "03_Building_Walls_Roofs",
+    "04_Animal_Houses_Shelters",
+    "05_Visitor_Buildings",
+    "06_Habitat_Enrichment",
+    "07_Plants_Trees",
+    "08_Water_Pools",
+    "09_Animals_Savanna",
+    "10_Animals_Jungle_Forest",
+    "11_Animals_Polar_Aquatic",
+    "12_Animals_Birds_Reptiles_Small",
+    "13_Visitor_Amenities",
+    "14_Signs_Decor",
+    "15_Keeper_Service",
+    "19_Terrain_Rockwork"
+  ],
+  "assets": [
+    {
+      "file": "01_Ground_Paths/ZOO_Ground_Grass_4x4.glb",
+      "bytes": 46204,
+      "triangles": 584,
+      "renderPrimitives": 7,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        3.9800000190734863,
+        0.4839732348918915,
+        3.9800000190734863
+      ],
+      "materials": 7,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "01_Ground_Paths/ZOO_Ground_PathCorner_4x4.glb",
+      "bytes": 64604,
+      "triangles": 868,
+      "renderPrimitives": 8,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        3.990000009536743,
+        0.4893750250339508,
+        3.990000009536743
+      ],
+      "materials": 8,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "01_Ground_Paths/ZOO_Ground_PathStraight_4x4.glb",
+      "bytes": 44008,
+      "triangles": 532,
+      "renderPrimitives": 8,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        3.9800000190734863,
+        0.48662707209587097,
+        4
+      ],
+      "materials": 8,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "01_Ground_Paths/ZOO_Ground_Savanna_4x4.glb",
+      "bytes": 59324,
+      "triangles": 988,
+      "renderPrimitives": 4,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        3.9800000190734863,
+        0.6982938647270203,
+        3.9800000190734863
+      ],
+      "materials": 4,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "02_Fences_Barriers/ZOO_Fence_WoodRailGate_4x1.glb",
+      "bytes": 35168,
+      "triangles": 764,
+      "renderPrimitives": 4,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        4.2499260902404785,
+        1.6799999475479126,
+        0.24992592632770538
+      ],
+      "materials": 4,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "02_Fences_Barriers/ZOO_Fence_WoodRailStraight_4x1.glb",
+      "bytes": 31832,
+      "triangles": 536,
+      "renderPrimitives": 5,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        4.015940546989441,
+        1.5299999713897705,
+        0.18400000035762787
+      ],
+      "materials": 5,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "02_Fences_Barriers/ZOO_Fence_ZooRailCorner_1x1.glb",
+      "bytes": 11320,
+      "triangles": 188,
+      "renderPrimitives": 3,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        0.1899999976158142,
+        1.2079999446868896,
+        0.18070073425769806
+      ],
+      "materials": 3,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "02_Fences_Barriers/ZOO_Fence_ZooRailStraight_4x1.glb",
+      "bytes": 47700,
+      "triangles": 708,
+      "renderPrimitives": 2,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        4.039999961853027,
+        1.1449999809265137,
+        0.14000000059604645
+      ],
+      "materials": 2,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "03_Building_Walls_Roofs/ZOO_Roof_TileGableEnd_4x4.glb",
+      "bytes": 128592,
+      "triangles": 2396,
+      "renderPrimitives": 6,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        4.272000074386597,
+        2.4070000648498535,
+        4.302184820175171
+      ],
+      "materials": 6,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "03_Building_Walls_Roofs/ZOO_Roof_TileStraight_4x4.glb",
+      "bytes": 98380,
+      "triangles": 1728,
+      "renderPrimitives": 4,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        4,
+        2.131999969482422,
+        4.3022425174713135
+      ],
+      "materials": 4,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "03_Building_Walls_Roofs/ZOO_Wall_StuccoCorner_1x4.glb",
+      "bytes": 35164,
+      "triangles": 736,
+      "renderPrimitives": 5,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        0.5799999833106995,
+        4.014999866485596,
+        0.5799999833106995
+      ],
+      "materials": 5,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "03_Building_Walls_Roofs/ZOO_Wall_StuccoDoorway_4x4.glb",
+      "bytes": 108176,
+      "triangles": 2312,
+      "renderPrimitives": 8,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        4,
+        4,
+        0.7049999833106995
+      ],
+      "materials": 8,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "03_Building_Walls_Roofs/ZOO_Wall_StuccoSolid_4x4.glb",
+      "bytes": 78012,
+      "triangles": 1692,
+      "renderPrimitives": 6,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        4,
+        4,
+        0.5460000038146973
+      ],
+      "materials": 6,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "03_Building_Walls_Roofs/ZOO_Wall_StuccoWindow_4x4.glb",
+      "bytes": 124424,
+      "triangles": 2412,
+      "renderPrimitives": 15,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        4,
+        4,
+        0.8250000178813934
+      ],
+      "materials": 15,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "04_Animal_Houses_Shelters/ZOO_Shelter_FeedingShelter_4x4.glb",
+      "bytes": 168256,
+      "triangles": 2604,
+      "renderPrimitives": 16,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        3.880000114440918,
+        4.060126304626465,
+        3.680000066757202
+      ],
+      "materials": 16,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "04_Animal_Houses_Shelters/ZOO_Shelter_KeeperHut_4x4.glb",
+      "bytes": 312736,
+      "triangles": 4916,
+      "renderPrimitives": 20,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        3.9216794967651367,
+        4.460000038146973,
+        3.863286852836609
+      ],
+      "materials": 20,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "05_Visitor_Buildings/ZOO_Visitor_EntranceGate_10x2.glb",
+      "bytes": 291724,
+      "triangles": 6744,
+      "renderPrimitives": 16,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        9.300339698791504,
+        7.110000133514404,
+        1.9414570331573486
+      ],
+      "materials": 16,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "05_Visitor_Buildings/ZOO_Visitor_TicketBooth_4x4.glb",
+      "bytes": 445064,
+      "triangles": 9960,
+      "renderPrimitives": 17,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        3.859263062477112,
+        4.441199779510498,
+        3.7799999713897705
+      ],
+      "materials": 17,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "06_Habitat_Enrichment/ZOO_Habitat_ClimbingLogs_4x4.glb",
+      "bytes": 235808,
+      "triangles": 5192,
+      "renderPrimitives": 7,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        3.54021418094635,
+        1.6650097370147705,
+        3.256108522415161
+      ],
+      "materials": 7,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "06_Habitat_Enrichment/ZOO_Habitat_FeedingPole_1x1.glb",
+      "bytes": 126948,
+      "triangles": 2158,
+      "renderPrimitives": 10,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        1.096841812133789,
+        3.2950000762939453,
+        0.6789994239807129
+      ],
+      "materials": 10,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "06_Habitat_Enrichment/ZOO_Habitat_HayRack_2x1.glb",
+      "bytes": 114488,
+      "triangles": 1968,
+      "renderPrimitives": 7,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        1.8600000143051147,
+        1.6449999809265137,
+        1.0039215087890625
+      ],
+      "materials": 7,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "06_Habitat_Enrichment/ZOO_Habitat_ScratchingPost_1x1.glb",
+      "bytes": 128280,
+      "triangles": 2532,
+      "renderPrimitives": 8,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        0.8799999952316284,
+        1.809999942779541,
+        0.8799999952316284
+      ],
+      "materials": 8,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "07_Plants_Trees/ZOO_Plant_Acacia_5x5.glb",
+      "bytes": 54892,
+      "triangles": 888,
+      "renderPrimitives": 4,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        4.83907413482666,
+        4.616254806518555,
+        4.70843768119812
+      ],
+      "materials": 4,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "07_Plants_Trees/ZOO_Plant_BushRound_2x2.glb",
+      "bytes": 25788,
+      "triangles": 344,
+      "renderPrimitives": 5,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        1.6480319499969482,
+        0.9796473979949951,
+        1.35359787940979
+      ],
+      "materials": 5,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "07_Plants_Trees/ZOO_Plant_GrassClump_1x1.glb",
+      "bytes": 19984,
+      "triangles": 308,
+      "renderPrimitives": 3,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        0.5256311297416687,
+        0.36948567628860474,
+        0.4836871474981308
+      ],
+      "materials": 3,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "07_Plants_Trees/ZOO_Plant_PalmTree_4x5.glb",
+      "bytes": 46932,
+      "triangles": 864,
+      "renderPrimitives": 4,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        3.597454071044922,
+        5.065759658813477,
+        3.7311359643936157
+      ],
+      "materials": 4,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "08_Water_Pools/ZOO_Pool_Centre_4x4.glb",
+      "bytes": 83748,
+      "triangles": 1272,
+      "renderPrimitives": 12,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        3.9800000190734863,
+        0.24199999868869781,
+        3.9800000190734863
+      ],
+      "materials": 12,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "08_Water_Pools/ZOO_Pool_EdgeStraight_4x4.glb",
+      "bytes": 107180,
+      "triangles": 1616,
+      "renderPrimitives": 13,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        3.9800000190734863,
+        1.016418695449829,
+        3.9800000190734863
+      ],
+      "materials": 13,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "09_Animals_Savanna/ZOO_Animal_Elephant_3x3.glb",
+      "bytes": 381056,
+      "triangles": 5200,
+      "renderPrimitives": 5,
+      "skinnedPrimitives": 5,
+      "dimensionsXYZ": [
+        2.6071529388427734,
+        2.2139997482299805,
+        2.9300791025161743
+      ],
+      "materials": 5,
+      "embeddedImages": 0,
+      "animations": [
+        {
+          "name": "Elephant_Idle",
+          "duration": 3.7083332538604736,
+          "tracks": 45,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.000008440305234516665
+        },
+        {
+          "name": "Elephant_Walk",
+          "duration": 1.375,
+          "tracks": 45,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.00001797824988148688
+        },
+        {
+          "name": "Elephant_Eat",
+          "duration": 3.7083332538604736,
+          "tracks": 45,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.000010523206721485545
+        },
+        {
+          "name": "Elephant_TrunkSwing",
+          "duration": 3.7083332538604736,
+          "tracks": 45,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.00002596271585621281
+        }
+      ]
+    },
+    {
+      "file": "09_Animals_Savanna/ZOO_Animal_Giraffe_1x3.glb",
+      "bytes": 418448,
+      "triangles": 5980,
+      "renderPrimitives": 6,
+      "skinnedPrimitives": 6,
+      "dimensionsXYZ": [
+        0.7506630420684814,
+        3.3057708740234375,
+        1.8604767322540283
+      ],
+      "materials": 6,
+      "embeddedImages": 0,
+      "animations": [
+        {
+          "name": "Giraffe_Idle",
+          "duration": 3.0416667461395264,
+          "tracks": 36,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.000010361855417168053
+        },
+        {
+          "name": "Giraffe_Walk",
+          "duration": 1.0416666269302368,
+          "tracks": 36,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.000023851078335515635
+        },
+        {
+          "name": "Giraffe_Eat",
+          "duration": 3.0416667461395264,
+          "tracks": 36,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.0000129189461283985
+        },
+        {
+          "name": "Giraffe_Browse",
+          "duration": 3.0416667461395264,
+          "tracks": 36,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.000013461240627038462
+        }
+      ]
+    },
+    {
+      "file": "09_Animals_Savanna/ZOO_Animal_Lion_1x3.glb",
+      "bytes": 330972,
+      "triangles": 4874,
+      "renderPrimitives": 5,
+      "skinnedPrimitives": 5,
+      "dimensionsXYZ": [
+        1.2736482620239258,
+        1.5969382524490356,
+        2.208725929260254
+      ],
+      "materials": 5,
+      "embeddedImages": 0,
+      "animations": [
+        {
+          "name": "Lion_Idle",
+          "duration": 3.0416667461395264,
+          "tracks": 33,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.000010972906396511384
+        },
+        {
+          "name": "Lion_Walk",
+          "duration": 1.0416666269302368,
+          "tracks": 33,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.000024582617733082124
+        },
+        {
+          "name": "Lion_Eat",
+          "duration": 3.0416667461395264,
+          "tracks": 33,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.00001349977621861731
+        },
+        {
+          "name": "Lion_Roar",
+          "duration": 2.0416667461395264,
+          "tracks": 33,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.00004009653011977088
+        }
+      ]
+    },
+    {
+      "file": "10_Animals_Jungle_Forest/ZOO_Animal_GiantPanda_1x2.glb",
+      "bytes": 251828,
+      "triangles": 3696,
+      "renderPrimitives": 4,
+      "skinnedPrimitives": 4,
+      "dimensionsXYZ": [
+        0.9060231447219849,
+        1.4835487604141235,
+        1.6070963740348816
+      ],
+      "materials": 4,
+      "embeddedImages": 0,
+      "animations": [
+        {
+          "name": "GiantPanda_Idle",
+          "duration": 3.7083332538604736,
+          "tracks": 24,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.000004769033877316784
+        },
+        {
+          "name": "GiantPanda_Walk",
+          "duration": 1.375,
+          "tracks": 24,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.00001797824988148688
+        },
+        {
+          "name": "GiantPanda_Eat",
+          "duration": 3.7083332538604736,
+          "tracks": 24,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.00000596129255476017
+        },
+        {
+          "name": "GiantPanda_HeadShake",
+          "duration": 2.5416667461395264,
+          "tracks": 24,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.0000181216692037921
+        }
+      ]
+    },
+    {
+      "file": "10_Animals_Jungle_Forest/ZOO_Animal_Gorilla_1x2.glb",
+      "bytes": 228828,
+      "triangles": 3364,
+      "renderPrimitives": 5,
+      "skinnedPrimitives": 5,
+      "dimensionsXYZ": [
+        0.9927692413330078,
+        1.4316230623749449,
+        1.012174278497696
+      ],
+      "materials": 5,
+      "embeddedImages": 0,
+      "animations": [
+        {
+          "name": "Gorilla_Idle",
+          "duration": 3.0416667461395264,
+          "tracks": 27,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.000002079446970594534
+        },
+        {
+          "name": "Gorilla_Walk",
+          "duration": 1.2083333730697632,
+          "tracks": 27,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.00001864183307635093
+        },
+        {
+          "name": "Gorilla_Eat",
+          "duration": 3.0416667461395264,
+          "tracks": 27,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0
+        },
+        {
+          "name": "Gorilla_ChestBeat",
+          "duration": 2.0416667461395264,
+          "tracks": 27,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0
+        }
+      ]
+    },
+    {
+      "file": "11_Animals_Polar_Aquatic/ZOO_Animal_EmperorPenguin_1x1.glb",
+      "bytes": 200520,
+      "triangles": 2760,
+      "renderPrimitives": 5,
+      "skinnedPrimitives": 5,
+      "dimensionsXYZ": [
+        0.632386326789856,
+        1.189262986644326,
+        0.7453003525733948
+      ],
+      "materials": 5,
+      "embeddedImages": 0,
+      "animations": [
+        {
+          "name": "EmperorPenguin_Idle",
+          "duration": 2.0416667461395264,
+          "tracks": 24,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.000004336546955586469
+        },
+        {
+          "name": "EmperorPenguin_Waddle",
+          "duration": 1.0416666269302368,
+          "tracks": 24,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.00002168279978891771
+        },
+        {
+          "name": "EmperorPenguin_Swim",
+          "duration": 1.375,
+          "tracks": 24,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.00003668441196863903
+        },
+        {
+          "name": "EmperorPenguin_Slide",
+          "duration": 1.375,
+          "tracks": 24,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.000003268773251879779
+        }
+      ]
+    },
+    {
+      "file": "11_Animals_Polar_Aquatic/ZOO_Animal_HarborSeal_1x2.glb",
+      "bytes": 263332,
+      "triangles": 4076,
+      "renderPrimitives": 4,
+      "skinnedPrimitives": 4,
+      "dimensionsXYZ": [
+        1.2000000476837158,
+        0.809999942779541,
+        1.906986951828003
+      ],
+      "materials": 4,
+      "embeddedImages": 0,
+      "animations": [
+        {
+          "name": "HarborSeal_Idle",
+          "duration": 2.0416667461395264,
+          "tracks": 21,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.000007879571190382018
+        },
+        {
+          "name": "HarborSeal_Scoot",
+          "duration": 1.0416666269302368,
+          "tracks": 21,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.000027131562631623103
+        },
+        {
+          "name": "HarborSeal_Swim",
+          "duration": 1.5416666269302368,
+          "tracks": 21,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.00002594577534925646
+        }
+      ]
+    },
+    {
+      "file": "12_Animals_Birds_Reptiles_Small/ZOO_Animal_Crocodile_1x4.glb",
+      "bytes": 282132,
+      "triangles": 3744,
+      "renderPrimitives": 6,
+      "skinnedPrimitives": 6,
+      "dimensionsXYZ": [
+        1.4399999380111694,
+        0.6836073398590088,
+        3.004345178604126
+      ],
+      "materials": 6,
+      "embeddedImages": 0,
+      "animations": [
+        {
+          "name": "Crocodile_Idle",
+          "duration": 3.0416667461395264,
+          "tracks": 36,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.0000027050235976155967
+        },
+        {
+          "name": "Crocodile_Crawl",
+          "duration": 1.375,
+          "tracks": 36,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.000019612636210861196
+        },
+        {
+          "name": "Crocodile_Snap",
+          "duration": 1.5416666269302368,
+          "tracks": 36,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.000019706541972072666
+        }
+      ]
+    },
+    {
+      "file": "12_Animals_Birds_Reptiles_Small/ZOO_Animal_Flamingo_1x1.glb",
+      "bytes": 232056,
+      "triangles": 2848,
+      "renderPrimitives": 3,
+      "skinnedPrimitives": 3,
+      "dimensionsXYZ": [
+        0.5002570152282715,
+        1.5826395750045776,
+        0.8755238652229309
+      ],
+      "materials": 3,
+      "embeddedImages": 0,
+      "animations": [
+        {
+          "name": "Flamingo_Idle",
+          "duration": 2.0416667461395264,
+          "tracks": 36,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.000005952821730603741
+        },
+        {
+          "name": "Flamingo_Walk",
+          "duration": 1.0416666269302368,
+          "tracks": 36,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.00003165044540963391
+        },
+        {
+          "name": "Flamingo_Peck",
+          "duration": 1.5416666269302368,
+          "tracks": 36,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0
+        },
+        {
+          "name": "Flamingo_Flap",
+          "duration": 1.0416666269302368,
+          "tracks": 36,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.00005962770161379407
+        },
+        {
+          "name": "Flamingo_Display",
+          "duration": 3.0416667461395264,
+          "tracks": 36,
+          "verifiedBoneMovement": true,
+          "maxLoopDifference": 0.00001120674069663673
+        }
+      ]
+    },
+    {
+      "file": "13_Visitor_Amenities/ZOO_Amenity_Bench_2x1.glb",
+      "bytes": 112884,
+      "triangles": 1932,
+      "renderPrimitives": 4,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        1.840000033378601,
+        0.9657060503959656,
+        0.783282071352005
+      ],
+      "materials": 4,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "13_Visitor_Amenities/ZOO_Amenity_Bin_1x1.glb",
+      "bytes": 98304,
+      "triangles": 1962,
+      "renderPrimitives": 11,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        0.8439783155918121,
+        1.087999939918518,
+        0.7555528283119202
+      ],
+      "materials": 11,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "13_Visitor_Amenities/ZOO_Amenity_DrinkingFountain_1x1.glb",
+      "bytes": 77108,
+      "triangles": 1350,
+      "renderPrimitives": 8,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        0.9200000166893005,
+        1.00600004196167,
+        0.9200000166893005
+      ],
+      "materials": 8,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "13_Visitor_Amenities/ZOO_Amenity_LampPost_1x1.glb",
+      "bytes": 93764,
+      "triangles": 1858,
+      "renderPrimitives": 9,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        0.9962210059165955,
+        3.424999952316284,
+        0.719710111618042
+      ],
+      "materials": 9,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "13_Visitor_Amenities/ZOO_Amenity_PicnicTable_2x2.glb",
+      "bytes": 103440,
+      "triangles": 1820,
+      "renderPrimitives": 8,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        1.940000057220459,
+        0.9199999570846558,
+        1.659999966621399
+      ],
+      "materials": 8,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "14_Signs_Decor/ZOO_Sign_DirectionSignpost_1x1.glb",
+      "bytes": 139948,
+      "triangles": 2752,
+      "renderPrimitives": 18,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        1,
+        2.325000047683716,
+        0.6103218197822571
+      ],
+      "materials": 18,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "14_Signs_Decor/ZOO_Sign_SpeciesSign_1x1.glb",
+      "bytes": 82252,
+      "triangles": 1542,
+      "renderPrimitives": 15,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        1.035979986190796,
+        1.4749999046325684,
+        0.3341290280222893
+      ],
+      "materials": 15,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "15_Keeper_Service/ZOO_Keeper_FeedBucket_1x1.glb",
+      "bytes": 116184,
+      "triangles": 1848,
+      "renderPrimitives": 11,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        0.917000025510788,
+        1.0272057056427002,
+        0.7949123084545135
+      ],
+      "materials": 11,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "15_Keeper_Service/ZOO_Keeper_HayBales_2x1.glb",
+      "bytes": 105324,
+      "triangles": 1900,
+      "renderPrimitives": 6,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        1.840000033378601,
+        1.0794167518615723,
+        0.8416944146156311
+      ],
+      "materials": 6,
+      "embeddedImages": 0,
+      "animations": []
+    },
+    {
+      "file": "19_Terrain_Rockwork/ZOO_Terrain_RockPile_2x2.glb",
+      "bytes": 63972,
+      "triangles": 936,
+      "renderPrimitives": 8,
+      "skinnedPrimitives": 0,
+      "dimensionsXYZ": [
+        1.9600000381469727,
+        1.07342529296875,
+        1.9600000381469727
+      ],
+      "materials": 8,
+      "embeddedImages": 0,
+      "animations": []
+    }
+  ]
+}

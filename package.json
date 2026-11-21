@@ -1,0 +1,33 @@
+{
+  "name": "pocket-zoo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-game.mjs",
+    "preview": "node scripts/preview.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "render:starter": "node scripts/render-starter.mjs",
+    "render:visitors": "node scripts/render-visitors.mjs",
+    "render:expansion": "node scripts/render-expansion.mjs",
+    "prepare:visitors": "node scripts/prepare-kenney.mjs",
+    "render": "node scripts/render.mjs",
+    "export": "node scripts/export.mjs",
+    "check": "node scripts/check.mjs",
+    "pack:audit": "node scripts/audit-cozy-pack.mjs",
+    "pack:render": "node scripts/render-cozy-pack.mjs",
+    "prepare:railway": "node scripts/prepare-coaster.mjs",
+    "render:railway": "node scripts/render-railway.mjs",
+    "render:passengers": "node scripts/render-passengers.mjs",
+    "render:drawing": "node scripts/render-drawing.mjs",
+    "render:care": "node scripts/render-animal-care.mjs",
+    "render:colours": "node scripts/render-animal-colours.mjs"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.12",
+    "sharp": "0.35.5"
+  }
+}
